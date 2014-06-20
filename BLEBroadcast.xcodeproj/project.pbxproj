@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C205BA719528565008854F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C205BA619528565008854F8 /* Foundation.framework */; };
+		2C205BA919528565008854F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C205BA819528565008854F8 /* CoreGraphics.framework */; };
+		2C205BAB19528565008854F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C205BAA19528565008854F8 /* UIKit.framework */; };
+		2C205BB119528565008854F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C205BAF19528565008854F8 /* InfoPlist.strings */; };
+		2C205BB319528565008854F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C205BB219528565008854F8 /* main.m */; };
+		2C205BB719528565008854F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C205BB619528565008854F8 /* AppDelegate.m */; };
+		2C205BBA19528565008854F8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C205BB819528565008854F8 /* Main_iPhone.storyboard */; };
+		2C205BBD19528565008854F8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C205BBB19528565008854F8 /* Main_iPad.storyboard */; };
+		2C205BC019528565008854F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C205BBF19528565008854F8 /* ViewController.m */; };
+		2C205BC219528565008854F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C205BC119528565008854F8 /* Images.xcassets */; };
+		2C205BC919528565008854F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C205BC819528565008854F8 /* XCTest.framework */; };
+		2C205BCA19528565008854F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C205BA619528565008854F8 /* Foundation.framework */; };
+		2C205BCB19528565008854F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C205BAA19528565008854F8 /* UIKit.framework */; };
+		2C205BD319528565008854F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C205BD119528565008854F8 /* InfoPlist.strings */; };
+		2C205BD519528565008854F8 /* BLEBroadcastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C205BD419528565008854F8 /* BLEBroadcastTests.m */; };
+		2C5794D51952ABE3007AE7E9 /* BeaconService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C5794D41952ABE3007AE7E9 /* BeaconService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C205BCC19528565008854F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C205B9B19528565008854F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C205BA219528565008854F8;
+			remoteInfo = BLEBroadcast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C205BA319528565008854F8 /* BLEBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLEBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C205BA619528565008854F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C205BA819528565008854F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C205BAA19528565008854F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C205BAE19528565008854F8 /* BLEBroadcast-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEBroadcast-Info.plist"; sourceTree = "<group>"; };
+		2C205BB019528565008854F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C205BB219528565008854F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C205BB419528565008854F8 /* BLEBroadcast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLEBroadcast-Prefix.pch"; sourceTree = "<group>"; };
+		2C205BB519528565008854F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C205BB619528565008854F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C205BB919528565008854F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2C205BBC19528565008854F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2C205BBE19528565008854F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C205BBF19528565008854F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C205BC119528565008854F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C205BC719528565008854F8 /* BLEBroadcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLEBroadcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C205BC819528565008854F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C205BD019528565008854F8 /* BLEBroadcastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLEBroadcastTests-Info.plist"; sourceTree = "<group>"; };
+		2C205BD219528565008854F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C205BD419528565008854F8 /* BLEBroadcastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEBroadcastTests.m; sourceTree = "<group>"; };
+		2C5794D31952ABE3007AE7E9 /* BeaconService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconService.h; sourceTree = "<group>"; };
+		2C5794D41952ABE3007AE7E9 /* BeaconService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C205BA019528565008854F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C205BA919528565008854F8 /* CoreGraphics.framework in Frameworks */,
+				2C205BAB19528565008854F8 /* UIKit.framework in Frameworks */,
+				2C205BA719528565008854F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C205BC419528565008854F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C205BC919528565008854F8 /* XCTest.framework in Frameworks */,
+				2C205BCB19528565008854F8 /* UIKit.framework in Frameworks */,
+				2C205BCA19528565008854F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C205B9A19528565008854F8 = {
+			isa = PBXGroup;
+			children = (
+				2C205BAC19528565008854F8 /* BLEBroadcast */,
+				2C205BCE19528565008854F8 /* BLEBroadcastTests */,
+				2C205BA519528565008854F8 /* Frameworks */,
+				2C205BA419528565008854F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C205BA419528565008854F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C205BA319528565008854F8 /* BLEBroadcast.app */,
+				2C205BC719528565008854F8 /* BLEBroadcastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C205BA519528565008854F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C205BA619528565008854F8 /* Foundation.framework */,
+				2C205BA819528565008854F8 /* CoreGraphics.framework */,
+				2C205BAA19528565008854F8 /* UIKit.framework */,
+				2C205BC819528565008854F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C205BAC19528565008854F8 /* BLEBroadcast */ = {
+			isa = PBXGroup;
+			children = (
+				2C205BB519528565008854F8 /* AppDelegate.h */,
+				2C205BB619528565008854F8 /* AppDelegate.m */,
+				2C205BB819528565008854F8 /* Main_iPhone.storyboard */,
+				2C205BBB19528565008854F8 /* Main_iPad.storyboard */,
+				2C205BBE19528565008854F8 /* ViewController.h */,
+				2C205BBF19528565008854F8 /* ViewController.m */,
+				2C205BC119528565008854F8 /* Images.xcassets */,
+				2C205BAD19528565008854F8 /* Supporting Files */,
+				2C5794D31952ABE3007AE7E9 /* BeaconService.h */,
+				2C5794D41952ABE3007AE7E9 /* BeaconService.m */,
+			);
+			path = BLEBroadcast;
+			sourceTree = "<group>";
+		};
+		2C205BAD19528565008854F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C205BAE19528565008854F8 /* BLEBroadcast-Info.plist */,
+				2C205BAF19528565008854F8 /* InfoPlist.strings */,
+				2C205BB219528565008854F8 /* main.m */,
+				2C205BB419528565008854F8 /* BLEBroadcast-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C205BCE19528565008854F8 /* BLEBroadcastTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C205BD419528565008854F8 /* BLEBroadcastTests.m */,
+				2C205BCF19528565008854F8 /* Supporting Files */,
+			);
+			path = BLEBroadcastTests;
+			sourceTree = "<group>";
+		};
+		2C205BCF19528565008854F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C205BD019528565008854F8 /* BLEBroadcastTests-Info.plist */,
+				2C205BD119528565008854F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C205BA219528565008854F8 /* BLEBroadcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C205BD819528565008854F8 /* Build configuration list for PBXNativeTarget "BLEBroadcast" */;
+			buildPhases = (
+				2C205B9F19528565008854F8 /* Sources */,
+				2C205BA019528565008854F8 /* Frameworks */,
+				2C205BA119528565008854F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLEBroadcast;
+			productName = BLEBroadcast;
+			productReference = 2C205BA319528565008854F8 /* BLEBroadcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C205BC619528565008854F8 /* BLEBroadcastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C205BDB19528565008854F8 /* Build configuration list for PBXNativeTarget "BLEBroadcastTests" */;
+			buildPhases = (
+				2C205BC319528565008854F8 /* Sources */,
+				2C205BC419528565008854F8 /* Frameworks */,
+				2C205BC519528565008854F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C205BCD19528565008854F8 /* PBXTargetDependency */,
+			);
+			name = BLEBroadcastTests;
+			productName = BLEBroadcastTests;
+			productReference = 2C205BC719528565008854F8 /* BLEBroadcastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C205B9B19528565008854F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "yenkai huang";
+				TargetAttributes = {
+					2C205BC619528565008854F8 = {
+						TestTargetID = 2C205BA219528565008854F8;
+					};
+				};
+			};
+			buildConfigurationList = 2C205B9E19528565008854F8 /* Build configuration list for PBXProject "BLEBroadcast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C205B9A19528565008854F8;
+			productRefGroup = 2C205BA419528565008854F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C205BA219528565008854F8 /* BLEBroadcast */,
+				2C205BC619528565008854F8 /* BLEBroadcastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C205BA119528565008854F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C205BBD19528565008854F8 /* Main_iPad.storyboard in Resources */,
+				2C205BC219528565008854F8 /* Images.xcassets in Resources */,
+				2C205BBA19528565008854F8 /* Main_iPhone.storyboard in Resources */,
+				2C205BB119528565008854F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C205BC519528565008854F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C205BD319528565008854F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C205B9F19528565008854F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C205BC019528565008854F8 /* ViewController.m in Sources */,
+				2C5794D51952ABE3007AE7E9 /* BeaconService.m in Sources */,
+				2C205BB719528565008854F8 /* AppDelegate.m in Sources */,
+				2C205BB319528565008854F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C205BC319528565008854F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C205BD519528565008854F8 /* BLEBroadcastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C205BCD19528565008854F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C205BA219528565008854F8 /* BLEBroadcast */;
+			targetProxy = 2C205BCC19528565008854F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C205BAF19528565008854F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C205BB019528565008854F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C205BB819528565008854F8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C205BB919528565008854F8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2C205BBB19528565008854F8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C205BBC19528565008854F8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2C205BD119528565008854F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C205BD219528565008854F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C205BD619528565008854F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C205BD719528565008854F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C205BD919528565008854F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBroadcast/BLEBroadcast-Prefix.pch";
+				INFOPLIST_FILE = "BLEBroadcast/BLEBroadcast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C205BDA19528565008854F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBroadcast/BLEBroadcast-Prefix.pch";
+				INFOPLIST_FILE = "BLEBroadcast/BLEBroadcast-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2C205BDC19528565008854F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEBroadcast.app/BLEBroadcast";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBroadcast/BLEBroadcast-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BLEBroadcastTests/BLEBroadcastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2C205BDD19528565008854F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLEBroadcast.app/BLEBroadcast";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLEBroadcast/BLEBroadcast-Prefix.pch";
+				INFOPLIST_FILE = "BLEBroadcastTests/BLEBroadcastTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C205B9E19528565008854F8 /* Build configuration list for PBXProject "BLEBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C205BD619528565008854F8 /* Debug */,
+				2C205BD719528565008854F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C205BD819528565008854F8 /* Build configuration list for PBXNativeTarget "BLEBroadcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C205BD919528565008854F8 /* Debug */,
+				2C205BDA19528565008854F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C205BDB19528565008854F8 /* Build configuration list for PBXNativeTarget "BLEBroadcastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C205BDC19528565008854F8 /* Debug */,
+				2C205BDD19528565008854F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C205B9B19528565008854F8 /* Project object */;
+}
