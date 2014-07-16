@@ -28,4 +28,6 @@
 - (void)startBroadcasting;
 - (void)stopBroadcasting;
 
+- (void) connectPeripheral;
+
 @end

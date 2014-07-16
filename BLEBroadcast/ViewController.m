@@ -61,4 +61,9 @@
     [beaconService startBroadcasting];
 }
 
+- (IBAction)connectPress:(id)sender {
+    [beaconService connectPeripheral];
+    [self.connectName setText:@"Yes"];
+}
+
 @end

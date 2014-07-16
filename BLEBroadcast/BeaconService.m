@@ -11,13 +11,9 @@
 @implementation BeaconService
 {
     CBUUID *uuid;
-    
     CBCentralManager *centralManager;
     CBPeripheralManager *peripheralManager;
-    
-    
-//    BOOL bluetoothIsEnabledAndAuthorized;
-//    NSTimer *authorizationTimer;
+    CBPeripheral *mPeripheral;
 }
 
 #pragma mark -
@@ -49,6 +45,7 @@
     
     
     [centralManager scanForPeripheralsWithServices:@[uuid] options:scanOptions];
+    
 }
 
 - (void)stopDetecting
@@ -86,6 +83,10 @@
     
 }
 
+- (void) connectPeripheral{
+    [centralManager connectPeripheral:mPeripheral options:nil];
+}
+
 
 
 #pragma mark - CBCentralManagerDelegate
@@ -95,6 +96,11 @@
     NSLog(@"peripheral: %@, data: %@, %1.2f", [peripheral.identifier UUIDString], advertisementData, [RSSI floatValue]);
         
     [self.delegate service:self Peripheral:peripheral advertisementData:advertisementData];
+    
+    if (mPeripheral == nil) {
+        NSLog(@"Set mPeripheral");
+        mPeripheral = peripheral;
+    }
 }
 
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central

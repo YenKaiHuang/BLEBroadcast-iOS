@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A2138F1F-50EB-441F-B354-A88DBD2D5CC1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BLEBroadcast</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2F9EDD40-8F8C-4BC0-974E-55884AF92861</key>
+		<string>ssh://github.com/YenKaiHuang/BLEBroadcast-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BLEBroadcast.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2F9EDD40-8F8C-4BC0-974E-55884AF92861</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/YenKaiHuang/BLEBroadcast-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2F9EDD40-8F8C-4BC0-974E-55884AF92861</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2F9EDD40-8F8C-4BC0-974E-55884AF92861</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BLEBroadcast-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

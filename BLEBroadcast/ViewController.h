@@ -15,7 +15,9 @@
 @interface ViewController : UIViewController
 - (IBAction)centralPress:(id)sender;
 - (IBAction)broadcastingPress:(id)sender;
+- (IBAction)connectPress:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextView *centralTextView;
 @property (weak, nonatomic) IBOutlet UILabel *broadcastingName;
+@property (weak, nonatomic) IBOutlet UILabel *connectName;
 
 @end
